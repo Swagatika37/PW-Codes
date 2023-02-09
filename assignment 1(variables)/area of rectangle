@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main (){
+    int length;
+    cout<<"Enter the length : "<<endl;
+    cin>>length;
+
+    int breadth;
+    cout<<"Enter the breadth : "<<endl;
+    cin>>breadth;
+
+    int area = length*breadth;
+    cout<<"Area of rectangle is "<<area<<endl;
+
+
+  return 0;
+
+   }
