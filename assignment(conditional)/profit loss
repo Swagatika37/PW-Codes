@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main (){
+    int sellingprice;
+    cout<<"Enter selling price : ";
+    cin>>sellingprice;
+
+    int costprice;
+    cout<<"Enter cost price : ";
+    cin>>costprice;
+
+    if(sellingprice>costprice){
+      int profit = sellingprice-costprice;
+      cout<<"profit = "<<profit;
+    }
+     else{
+       int loss = costprice-sellingprice;
+       cout<<"loss = "<<loss;
+     }
+  return 0;
+
+   }
