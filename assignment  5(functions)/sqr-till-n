@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+void printsquaretilln(int n){
+  for (int i = 1; i <= n; i++)
+  {
+    int sqr = i*i;
+    cout<<sqr<<" ";
+  }
+  
+}
+
+int main (){
+    int n;
+    cin>>n;
+    printsquaretilln(n);
+    cout<<endl;
+  return 0;
+
+   }
